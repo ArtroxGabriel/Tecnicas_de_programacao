@@ -1,0 +1,5 @@
+package Exercicios;
+
+class Casamento {
+    
+}

@@ -1,5 +1,5 @@
 package Exercicios;
 
 class Reta {
-    Ponto p1, p2;
+    Ponto p1, p2;   
 }
