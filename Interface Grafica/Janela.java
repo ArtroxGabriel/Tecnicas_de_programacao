@@ -15,7 +15,7 @@ class Janela extends Frame {
     b.setBackground(Color.red);
     b.setLocation(150, 150);
     b.setSize(200, 100);
-    j.add(b);
+    j.add(b, "south");
 
     j.setLayout(null);
     j.pack();
