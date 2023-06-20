@@ -1,7 +1,7 @@
 class InboxView extends Observer {
-    Inbox subject;
+    InboxModel subject;
 
-    InboxView(Inbox subject) {
+    InboxView(InboxModel subject) {
         this.subject = subject;
         this.subject.attach(this);
     }

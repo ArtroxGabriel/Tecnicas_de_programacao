@@ -1,5 +1,5 @@
 // MVC - Model
-class Inbox extends Subject{
+class InboxModel extends Subject{
     String sender;
     String receiver;
     String message;
@@ -10,6 +10,7 @@ class Inbox extends Subject{
 
     void setSender(String sender) {
         this.sender = sender;
+        this.notifyObservers();
     }
 
     String getReceiver() {
@@ -18,6 +19,7 @@ class Inbox extends Subject{
 
     void setReceiver(String receiver) {
         this.receiver = receiver;
+        this.notifyObservers();
     }
 
     String getMessage() {
@@ -26,6 +28,7 @@ class Inbox extends Subject{
 
     void setMessage(String message) {
         this.message = message;
+        this.notifyObservers();
     }
 }
 
